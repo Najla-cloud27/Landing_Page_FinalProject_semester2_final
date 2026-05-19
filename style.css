@@ -46,16 +46,19 @@ body {
 .blob {
     position: absolute;
     border-radius: 50%;
-    filter: blur(200px); /* Layer Blur 200px */
+    /* Layer Blur 200px */
+    filter: blur(200px); 
 }
 
 .blob-blue {
-    width: 1600px; /* Ukuran besar untuk covering background */
+    /* Ukuran besar untuk covering background */
+    width: 1600px; 
     height: 600px;
     top: -200px;
     right: -200px;
     background: var(--blob-blue);
-    transform: rotate(-79deg); /* Rotasi sesuai Figma Properties */
+    /* Rotasi sesuai Figma Properties */
+    transform: rotate(-79deg); 
     opacity: 0.5;
 }
 
@@ -440,7 +443,7 @@ a { text-decoration: none; transition: 0.3s; }
     margin-bottom: 12px;
 }
 
-/* DESKRIPSI CARA KERJA (Sesuai input_file_20.png) */
+/* DESKRIPSI CARA KERJA*/
 .step-description {
      /* Sesuai Figma Property */
     font-size: 19.43px;      
@@ -737,7 +740,7 @@ img{
 }
 
 
-/* =Responsive dalam ukuran tablet */
+/* Responsive dalam ukuran tablet */
 @media (min-width: 769px) and (max-width: 1024px){
 
     /* HERO */
